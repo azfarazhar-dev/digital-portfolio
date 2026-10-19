@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/images/toyota-landing-page.png",
+    "title": "Toyota KL Landing Page",
+    "description": "Toyota KL is a sleek and informative automotive website designed to showcase Toyota’s lineup and services in Kuala Lumpur. My role focused on developing a responsive frontend using modern web practices, ensuring smooth navigation and optimal performance across all devices. I worked on structuring clean, maintainable code and aligning the layout with Toyota’s brand aesthetics to create a professional, user-focused browsing experience. The result is a visually polished site that highlights Toyota’s offerings with clarity and style.",
+    "website": "https://www.toyotakl.com/",
+    "meta": [
+      {
+        "name": "category",
+        "value": "Web Development"
+      },
+      {
+        "name": "client",
+        "value": "Zack Toyota"
+      },
+      {
+        "name": "tags",
+        "value": "UX/UI Design"
+      },
+      {
+        "name": "launched",
+        "value": "July 2025"
+      }
+    ]
+  }
+]

@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- here is your favicon. You can update it in the public/images folder -->
+    <link rel="icon" href="/images/favicon.png" type="image/png" />
+    <!-- this is your custom font. Update/remove this if you want to use a different font-->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap"
+      rel="stylesheet"
+    />
+    <!-- here is your page title. It is passed in as the title prop when you call the partial -->
+    <title>
+      Azfar Azhar | Digital Portfolio
+    </title>
+    <script type="module" crossorigin src="/assets/index-nJrK5aMK.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D-3ExwPl.css">
+  </head>
+  <body class="prose prose-gray max-w-none">
+    <div
+      class="fixed top-0 left-0 z-[40] shadow bg-gray-950 dark:bg-gray-200 h-1 w-full animate-scroll-progress"
+    ></div>
+    <header
+      class="border-b py-4 not-prose fixed inset-x-0 bg-white dark:bg-gray-950 z-30"
+    >
+      <div class="container flex justify-between items-center gap-20">
+        <div class="flex items-center gap-32 flex-grow">
+          <!-- <a
+            href="#"
+            class="w-10 grid transition-opacity hover:opacity-75 duration-300 text-gray-950 dark:text-gray-100"
+            aria-label="Home"
+          >
+            <svg
+              viewBox="0 0 1310 1310"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xml:space="preserve"
+              xmlns:serif="http://www.serif.com/"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+            >
+              <g transform="matrix(1,0,0,1,-548.721,-1344.74)">
+                <path
+                  d="M1320.19,1807.53L1320.19,1931.56L1394.41,1931.56C1468.63,1931.56 1526.25,1987.23 1526.25,2061.46C1526.25,2136.65 1468.63,2197.2 1397.34,2197.2C1326.05,2197.2 1268.43,2134.7 1268.43,2057.55L1268.43,1583.89L1139.51,1583.89L1139.51,2057.55C1139.51,2203.06 1245.97,2322.21 1397.34,2322.21C1549.69,2322.21 1655.16,2203.06 1655.16,2061.46C1655.16,1920.82 1550.67,1807.53 1410.04,1807.53L1320.19,1807.53ZM751.799,2061.46L751.799,2310.49L881.688,2310.49L881.688,2061.46C881.688,1987.23 939.307,1931.56 1013.53,1931.56L1087.75,1931.56L1087.75,1807.53L997.903,1807.53C857.271,1807.53 751.799,1920.82 751.799,2061.46ZM1010.5,1344.74L1396.46,1344.74C1650.44,1344.74 1858.24,1552.54 1858.24,1806.52L1858.24,2192.48C1858.24,2446.46 1650.44,2654.26 1396.46,2654.26L1010.5,2654.26C756.522,2654.26 548.721,2446.46 548.721,2192.48L548.721,1806.52C548.721,1552.54 756.522,1344.74 1010.5,1344.74Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </a> -->
+          <nav aria-label="Main navigation" class="hidden lg:flex">
+            <ul class="flex gap-12 items-center list-none m-0 py-0">
+               <li>
+      <a href="#" class="navlink">Home</a>
+    </li>
+      <li>
+      <a href="#about" class="navlink">About Me</a>
+    </li>
+      <li>
+      <a href="#work" class="navlink">My Work</a>
+    </li>
+      <li>
+      <a href="#contact" class="navlink">Contact Me</a>
+    </li>
+     
+            </ul>
+          </nav>
+        </div>
+        <a href="#contact" class="btn btn-sm hidden lg:flex" role="button"
+          >Let's Talk</a
+        >
+        <button
+          class="cursor-pointer rounded-full bg-gray-100 text-gray-950 p-4 flex transition-colors duration-300 hover:bg-gray-200 lg:hidden"
+          data-modal-open
+          aria-controls="modal"
+          aria-haspopup="dialog"
+        >
+          <span class="sr-only">Open Mobile Navigation</span>
+          <span class="w-6"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path>
+    </svg>
+    </span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- prettier-ignore -->
+      <section aria-labelledby="hero-title" class="border-b dark:bg-gray-950">
+        <div class="container">
+          <div class="lg:border-x pt-48">
+            <div class="lg:max-w-screen-lg lg:mx-auto dotted-side-borders pb-32">
+              <div
+                class="lg:max-w-screen-md lg:mx-auto grid text-center gap-10 isolate"
+              >
+                <div class="grid">
+                  <span class="animated-border">Available for work 🎉</span>
+                  <figure
+                    class="relative w-32 h-32 mx-auto grid !mb-0 animate animate-out-up"
+                  >
+                    <img
+                      src="/images/avatar.jpeg"
+                      alt="My profile picture"
+                      class="rounded-full"
+                    />
+                    <span
+                      class="rounded-full block w-3 h-3 bg-emerald-400 absolute bottom-3 right-3 border-2 border-white dark:border-gray-950"
+                    ></span>
+                  </figure>
+                </div>
+                <div class="grid gap-7 animate animate-out-up">
+                  <!-- <p class="!my-0 text-xl">Hi, I'm Azfar 👋</p> -->
+                  <h1
+                    id="hero-title"
+                    class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black !m-0"
+                  >
+                    Hi, I'm Azfar 👋
+                  </h1>
+                  <p class="!mb-0 !mt-0 max-w-lg mx-auto text-xl font-medium">
+                    Based in Cyberjaya, I am a <b>Web Developer</b> and
+                    <b>UI/UX Designer </b> passionate about creating seamless
+                    interfaces optimized for performance.
+                  </p>
+      
+                  
+                  <a href="#contact" class="btn grid mx-auto" role="button"
+                    >Discuss Your Project</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="about"
+        aria-labelledby="about-title"
+        class="scroll-mt-20 border-b dark:bg-gray-950 dark:text-gray-300"
+      >
+        <div class="container">
+          <div class="lg:border-x">
+            <h2
+              id="about-title"
+              class="uppercase text-sm text-gray-600 dark:text-gray-300 font-medium tracking-wide border-b border-dashed lg:px-6 pt-9 pb-4 !m-0"
+            >
+              About Me
+            </h2>
+            <div class="lg:max-w-screen-md lg:mx-auto py-14 lg:py-20">
+              <p class="!m-0 text-3xl lg:text-4xl text-gray-950 dark:text-gray-200">
+                Based in Cyberjaya, 3+ years of expertise in web development (especially frontend).
+                <span class="animate animate-opacity text-gray-600 dark:text-gray-400"
+                  >Main focus on UI and UX. I'm passionate about creating
+                  intuitive, beautifully designed interfaces that prove simplicity is
+                  not just elegant but essential.</span
+                >
+              </p>
+              <section
+                id="experience"
+                aria-labelledby="experience-title"
+                class="mt-20 grid gap-12 dark:bg-gray-950"
+              >
+                <a
+                  href="cv.pdf"
+                  class="rounded-full border px-3 py-2 font-medium no-underline transition-colors duration-300 ease-in-out bg-gray-50 hover:bg-gray-950 hover:border-gray-950 hover:text-white flex justify-self-start items-center gap-2 dark:bg-gray-200 dark:text-gray-950 dark:border-gray-200 dark:hover:bg-gray-300 dark:hover:border-gray-300 dark:text-gray-950 dark:hover:text-gray-950 w-full justify-center sm:w-auto"
+                  download
+                >
+                  <span class="w-5 !m-0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M13 12H16L12 16L8 12H11V8H13V12ZM15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918Z"
+                ></path>
+              </svg>
+              </span>
+                  Download My CV</a
+                >
+                <h3 id="experience-title" class="text-4xl lg:text-5xl !m-0">My Experience</h3>
+                <!--prettier-ignore-->
+                <div class="not-prose">
+                  <dl class="border-l pl-8 sm:pl-16 md:pl-24 pb-16 last:pb-0 relative">
+                    <span
+                      class="bg-gray-200 dark:bg-gray-400 w-[7px] h-[7px] rounded-full block absolute left-0 top-0 -ml-1"
+                    ></span>
+                    <span
+                      class="uppercase text-gray-600 dark:text-gray-500 font-medium tracking-wide mb-4 block leading-[1]"
+                      >2024 - present</span
+                    >
+                    <div class="pb-4 last:pb-0 animate-in-and-out">
+                      <dt
+                        class="text-2xl md:text-3xl text-gray-950 dark:text-gray-200 font-medium"
+                      >
+                        Web Developer
+                      </dt>
+                      <dd class="text-gray-600 dark:text-gray-500 font-medium">
+                        TradingPRO International Ltd, Cyberjaya
+                      </dd>
+                    </div>
+                  </dl>
+                  <dl class="border-l pl-8 sm:pl-16 md:pl-24 pb-16 last:pb-0 relative">
+                    <span
+                      class="bg-gray-200 dark:bg-gray-400 w-[7px] h-[7px] rounded-full block absolute left-0 top-0 -ml-1"
+                    ></span>
+                    <span
+                      class="uppercase text-gray-600 dark:text-gray-500 font-medium tracking-wide mb-4 block leading-[1]"
+                      >2022 - 2024</span
+                    >
+                    <div class="pb-4 last:pb-0 animate-in-and-out">
+                      <dt
+                        class="text-2xl md:text-3xl text-gray-950 dark:text-gray-200 font-medium"
+                      >
+                        Application Developer
+                      </dt>
+                      <dd class="text-gray-600 dark:text-gray-500 font-medium">
+                        Kementerian Kesihatan Malaysia, Putrajaya
+                      </dd>
+                    </div>
+                    <div class="pb-4 last:pb-0 animate-in-and-out">
+                      <dt
+                        class="text-2xl md:text-3xl text-gray-950 dark:text-gray-200 font-medium"
+                      >
+                        Junior Frontend Developer
+                      </dt>
+                      <dd class="text-gray-600 dark:text-gray-500 font-medium">
+                        Laskar Technologies, Shah Alam
+                      </dd>
+                    </div>
+                  </dl>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        id="work"
+        aria-labelledby="work-title"
+        class="scroll-mt-20 border-b dark:bg-gray-950"
+      >
+        <div class="container">
+          <div class="lg:border-x">
+            <h2
+              id="work-title"
+              class="uppercase text-sm text-gray-600 dark:text-gray-300 font-medium tracking-wide border-b border-dashed lg:px-6 pt-9 pb-4 !m-0"
+            >
+              Examples of my work
+            </h2>
+            <div class="grid gap-20 lg:mx-auto lg:max-w-screen-lg py-14 lg:py-20">
+              <!--prettier-ignore-->
+              <article>
+                <img class="animate-reveal" src="/images/toyota-landing-page.png" alt="Toyota KL Landing Page" />
+                <div class="grid md:grid-cols-2 gap-20 mt-11">
+                  <div>
+                    <h3 class="mt-0 text-3xl font-medium">Toyota KL Landing Page</h3>
+                    <p class="text-lg">Toyota KL is a sleek and informative automotive website designed to showcase Toyota’s lineup and services in Kuala Lumpur. My role focused on developing a responsive frontend using modern web practices, ensuring smooth navigation and optimal performance across all devices. I worked on structuring clean, maintainable code and aligning the layout with Toyota’s brand aesthetics to create a professional, user-focused browsing experience. The result is a visually polished site that highlights Toyota’s offerings with clarity and style.</p>
+                    <a
+                      href="https://www.toyotakl.com/"
+                      class="btn mt-10 flex items-center gap-2 justify-self-start w-full justify-center sm:w-auto"
+                      role="button"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Website
+                      <span class="w-5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M10 6V8H5V19H16V14H18V20C18 20.5523 17.5523 21 17 21H4C3.44772 21 3 20.5523 3 20V7C3 6.44772 3.44772 6 4 6H10ZM21 3V11H19L18.9999 6.413L11.2071 14.2071L9.79289 12.7929L17.5849 5H13V3H21Z"
+        ></path>
+      </svg>
+      </span>
+                    </a>
+                  </div>
+                  <div>
+                    <div class="grid md:grid-cols-2 gap-6 md:gap-12 not-prose">
+                      <dl class="grid gap-2">
+                        <dt
+                          class="text-base font-medium text-gray-600 dark:text-gray-500 capitalize"
+                        >
+                          category
+                        </dt>
+                        <dd
+                          class="text-xl font-medium text-gray-950 dark:text-gray-200"
+                        >
+                          Web Development
+                        </dd>
+                      </dl>
+                      <dl class="grid gap-2">
+                        <dt
+                          class="text-base font-medium text-gray-600 dark:text-gray-500 capitalize"
+                        >
+                          client
+                        </dt>
+                        <dd
+                          class="text-xl font-medium text-gray-950 dark:text-gray-200"
+                        >
+                          Zack Toyota
+                        </dd>
+                      </dl>
+                      <dl class="grid gap-2">
+                        <dt
+                          class="text-base font-medium text-gray-600 dark:text-gray-500 capitalize"
+                        >
+                          tags
+                        </dt>
+                        <dd
+                          class="text-xl font-medium text-gray-950 dark:text-gray-200"
+                        >
+                          UX/UI Design
+                        </dd>
+                      </dl>
+                      <dl class="grid gap-2">
+                        <dt
+                          class="text-base font-medium text-gray-600 dark:text-gray-500 capitalize"
+                        >
+                          launched
+                        </dt>
+                        <dd
+                          class="text-xl font-medium text-gray-950 dark:text-gray-200"
+                        >
+                          July 2025
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section
+  id="testimonials"
+  aria-labelledby="testimonials-title"
+  class="scroll-mt-20 lg:border-b dark:bg-gray-950"
+>
+  <div class="container">
+    <div class="lg:border-x">
+      <h2
+        id="testimonials-title"
+        class="uppercase text-sm text-gray-600 dark:text-gray-300 font-medium tracking-wide border-b border-dashed lg:px-6 pt-9 pb-4 !m-0"
+      >
+        What my clients say
+      </h2>
+      <div class="relative pt-24 pb-16 lg:py-10">
+        <span
+          class="text-9xl text-gray-300 absolute top-2 -left-1 lg:top-5 lg:left-5"
+          >“</span
+        >
+        <div class="swiper not-prose lg:max-w-screen-md">
+          <div class="swiper-wrapper">
+            <article
+              class="swiper-slide pb-10 lg:py-20 bg-white dark:bg-gray-950"
+            >
+              <blockquote class="grid gap-6">
+                <p
+                  class="text-2xl md:text-3xl lg:text-4xl text-gray-950 dark:text-gray-300"
+                >
+                  Rob transformed our outdated interface into a sleek, modern design that our users love. His attention to detail and ability to bring concepts to life exceeded all expectations. We couldn’t be happier with the result!
+                </p>
+                <cite class="text-xl font-medium text-gray-600 not-italic">
+                  Sarah T. Product Manager
+                </cite>
+              </blockquote>
+            </article>
+            <article
+              class="swiper-slide pb-10 lg:py-20 bg-white dark:bg-gray-950"
+            >
+              <blockquote class="grid gap-6">
+                <p
+                  class="text-2xl md:text-3xl lg:text-4xl text-gray-950 dark:text-gray-300"
+                >
+                  Working with Rob was an absolute pleasure. His frontend skills and design expertise turned our vision into reality. The website is fast, responsive, and looks amazing on every device. Highly recommend!
+                </p>
+                <cite class="text-xl font-medium text-gray-600 not-italic">
+                  James L. CEO of GreenCourier
+                </cite>
+              </blockquote>
+            </article>
+            <article
+              class="swiper-slide pb-10 lg:py-20 bg-white dark:bg-gray-950"
+            >
+              <blockquote class="grid gap-6">
+                <p
+                  class="text-2xl md:text-3xl lg:text-4xl text-gray-950 dark:text-gray-300"
+                >
+                  Rob&#x27;s ability to blend functionality with beautiful design is unmatched. He made our app not only visually appealing but also incredibly easy to use. Our users have been raving about the improvements!
+                </p>
+                <cite class="text-xl font-medium text-gray-600 not-italic">
+                  Emily R. UX Lead
+                </cite>
+              </blockquote>
+            </article>
+            <article
+              class="swiper-slide pb-10 lg:py-20 bg-white dark:bg-gray-950"
+            >
+              <blockquote class="grid gap-6">
+                <p
+                  class="text-2xl md:text-3xl lg:text-4xl text-gray-950 dark:text-gray-300"
+                >
+                  From day one, Rob was professional, collaborative, and full of creative ideas. The dashboard he developed for us is intuitive, efficient, and perfectly matches our branding. We&#x27;re thrilled with the final product!
+                </p>
+                <cite class="text-xl font-medium text-gray-600 not-italic">
+                  Mark S. Operations Manager
+                </cite>
+              </blockquote>
+            </article>
+            <article
+              class="swiper-slide pb-10 lg:py-20 bg-white dark:bg-gray-950"
+            >
+              <blockquote class="grid gap-6">
+                <p
+                  class="text-2xl md:text-3xl lg:text-4xl text-gray-950 dark:text-gray-300"
+                >
+                  Rob&#x27;s expertise in frontend development and UI/UX design completely elevated our project. His ability to turn our requirements into a polished, user-friendly application was impressive. He&#x27;s an absolute pro!
+                </p>
+                <cite class="text-xl font-medium text-gray-600 not-italic">
+                  Anna M. Startup Founder
+                </cite>
+              </blockquote>
+            </article>
+          </div>
+          <div class="swiper-pagination pt-10 !-bottom-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ -->
+    </main>
+    <footer class="bg-gray-950 dark:border-t lg:dark:border-0">
+      <section id="contact" aria-labelledby="contact-title" class="container">
+        <div class="lg:border-x lg:border-white/25 py-20">
+          <div class="lg:max-w-screen-md mx-auto">
+            <h2
+              id="contact-title"
+              class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-white !mt-0"
+            >
+              Get In Touch
+            </h2>
+            <div class="grid lg:grid-cols-2 gap-20 not-prose">
+              <div class="grid gap-20">
+                <div class="grid gap-20">
+                  <p class="text-2xl text-white m-0">
+                    Send me a message about your project and I'll get back to you.
+                  </p>
+                  <address
+                    class="text-xl text-white/75 grid gap-10 lg:gap-6 not-italic"
+                  >
+                    <!--prettier-ignore-->
+                    <a
+                      href="mailto:azfarazhar.dev@gmail.com"
+                      class="leading-1 text-2xl lg:text-xl transition-colors duration-300 hover:text-white"
+                      >azfarazhar.dev@gmail.com</a
+                    >
+                     <span class="leading-1">43000 Cyberjaya, Selangor, Malaysia</span>
+                     
+                  </address>
+                </div>
+                <nav class="grid not-prose">
+                  <ul
+                    class="flex flex-col sm:flex-row items-stretch md:items-center items-center gap-4  "
+                  >
+                    <!-- prettier-ignore-->
+                        <a
+                          href="https://www.linkedin.com/in/devbyazfar/"
+                          target="_blank"
+                          class="flex items-center gap-2 bg-gray-100 border rounded-md px-3 py-2 text-sm font-medium transition-colors duration-300 hover:bg-gray-200 hover:border-gray-300 no-underline dark:text-gray-950"
+                          rel="noopener noreferrer"
+                        >
+                          <!-- prettier-ignore-->
+                          <span class="w-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                  <path
+                                    d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"
+                                  ></path>
+                                </svg>
+                             </span>
+                          LinkedIn
+                        </a>
+                        <a
+                          href="https://gitlab.com/aa.azfarazhar"
+                          target="_blank"
+                          class="flex items-center gap-2 bg-gray-100 border rounded-md px-3 py-2 text-sm font-medium transition-colors duration-300 hover:bg-gray-200 hover:border-gray-300 no-underline dark:text-gray-950"
+                          rel="noopener noreferrer"
+                        >
+                          <!-- prettier-ignore-->
+                          <span class="w-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380">
+                                  <defs>
+                                    <style>
+                                      .cls-1 {
+                                        fill: #171321;
+                                      }
+                                    </style>
+                                  </defs>
+                                  <g id="LOGO">
+                                    <path
+                                      class="cls-1"
+                                      d="M282.83,170.73l-.27-.69-26.14-68.22a6.81,6.81,0,0,0-2.69-3.24,7,7,0,0,0-8,.43,7,7,0,0,0-2.32,3.52l-17.65,54H154.29l-17.65-54A6.86,6.86,0,0,0,134.32,99a7,7,0,0,0-8-.43,6.87,6.87,0,0,0-2.69,3.24L97.44,170l-.26.69a48.54,48.54,0,0,0,16.1,56.1l.09.07.24.17,39.82,29.82,19.7,14.91,12,9.06a8.07,8.07,0,0,0,9.76,0l12-9.06,19.7-14.91,40.06-30,.1-.08A48.56,48.56,0,0,0,282.83,170.73Z"
+                                    />
+                                  </g>
+                                </svg>
+                             </span>
+                          GitLab
+                        </a>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="border-t border-white/25 text-sm py-10 text-center text-white/50">
+        <p>
+          &copy; Yours truly, Azfar Azhar
+        </p>
+      </div>
+    </footer>
+    <dialog
+      id="modal"
+      aria-labelledby="modal-title"
+      aria-describedby="modal-description"
+      data-modal
+      class="fixed z-[999]"
+    >
+      <div
+        class="modal-content bg-gray-950 justify-between gap-20 p-12 sm:p-20 flex flex-col h-full overflow-y-auto"
+      >
+        <div class="flex items-center justify-between gap-4">
+          <!-- <a
+            href="#"
+            class="w-14 sm:w-20 flex flex-shrink-0 transition-opacity hover:opacity-75 duration-300 text-white dark:text-gray-100"
+            aria-label="Home"
+          >
+            <svg
+              viewBox="0 0 1310 1310"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xml:space="preserve"
+              xmlns:serif="http://www.serif.com/"
+              style="
+                fill-rule: evenodd;
+                clip-rule: evenodd;
+                stroke-linejoin: round;
+                stroke-miterlimit: 2;
+              "
+            >
+              <g transform="matrix(1,0,0,1,-548.721,-1344.74)">
+                <path
+                  d="M1320.19,1807.53L1320.19,1931.56L1394.41,1931.56C1468.63,1931.56 1526.25,1987.23 1526.25,2061.46C1526.25,2136.65 1468.63,2197.2 1397.34,2197.2C1326.05,2197.2 1268.43,2134.7 1268.43,2057.55L1268.43,1583.89L1139.51,1583.89L1139.51,2057.55C1139.51,2203.06 1245.97,2322.21 1397.34,2322.21C1549.69,2322.21 1655.16,2203.06 1655.16,2061.46C1655.16,1920.82 1550.67,1807.53 1410.04,1807.53L1320.19,1807.53ZM751.799,2061.46L751.799,2310.49L881.688,2310.49L881.688,2061.46C881.688,1987.23 939.307,1931.56 1013.53,1931.56L1087.75,1931.56L1087.75,1807.53L997.903,1807.53C857.271,1807.53 751.799,1920.82 751.799,2061.46ZM1010.5,1344.74L1396.46,1344.74C1650.44,1344.74 1858.24,1552.54 1858.24,1806.52L1858.24,2192.48C1858.24,2446.46 1650.44,2654.26 1396.46,2654.26L1010.5,2654.26C756.522,2654.26 548.721,2446.46 548.721,2192.48L548.721,1806.52C548.721,1552.54 756.522,1344.74 1010.5,1344.74Z"
+                  fill="currentColor"
+                />
+              </g>
+            </svg>
+          </a> -->
+          <button
+            data-modal-close
+            class="text-gray-100 transition-colors duration-300 hover:text-gray-300 cursor-pointer z-10 flex modal-close"
+          >
+            <span class="sr-only">Close modal</span>
+            <span class="w-12"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 10.5858L9.17157 7.75736L7.75736 9.17157L10.5858 12L7.75736 14.8284L9.17157 16.2426L12 13.4142L14.8284 16.2426L16.2426 14.8284L13.4142 12L16.2426 9.17157L14.8284 7.75736L12 10.5858Z"
+      ></path>
+    </svg>
+    </span>
+          </button>
+        </div>
+        <nav class="bg-gray-950 text-white" data-modal-menu>
+          <ul class="not-prose grid gap-10">
+            <li>
+              <a
+                href="#"
+                class="text-4xl font-bold transition-colors duration-300 hover:text-white/75 text-white no-underline"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="text-4xl font-bold transition-colors duration-300 hover:text-white/75 text-white no-underline"
+                >About Me</a
+              >
+            </li>
+            <li>
+              <a
+                href="#work"
+                class="text-4xl font-bold transition-colors duration-300 hover:text-white/75 text-white no-underline"
+                >My Work</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="text-4xl font-bold transition-colors duration-300 hover:text-white/75 text-white no-underline"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- <div class="text-white/50 mobile-copyright">
+          <p class="!m-0">
+            &copy; 2024 All rights reserved | Made with ❤️ by
+            <a
+              class="underline text-white/50 transition-colors duration-300 hover:text-white"
+              href="https://pixelrocket.store"
+              >Pixel Rocket</a
+            >
+          </p>
+        </div> -->
+      </div>
+    </dialog>
+  </body>
+</html>
